@@ -1,0 +1,36 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page4655247.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://breathe\.moscow/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.breathe.moscow [NC]
+RewriteRule ^(.*)$ https://breathe\.moscow/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^breathemoscow$ page4655247.html [NC]
+RewriteRule ^breathemoscow/$ page4655247.html [NC]
+
+RewriteRule ^register$ page5486364.html [NC]
+RewriteRule ^register/$ page5486364.html [NC]
+
+RewriteRule ^assembly$ page5847983.html [NC]
+RewriteRule ^assembly/$ page5847983.html [NC]
+
+RewriteRule ^faq$ page8482792.html [NC]
+RewriteRule ^faq/$ page8482792.html [NC]
+
+RewriteRule ^fb$ page8590404.html [NC]
+RewriteRule ^fb/$ page8590404.html [NC]
+
+RewriteRule ^about$ page23587117.html [NC]
+RewriteRule ^about/$ page23587117.html [NC]
+
+

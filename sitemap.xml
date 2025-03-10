@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+	<url>
+		<loc>https://breathe.moscow/</loc>
+		<lastmod>2022-08-18T09:27:24+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://breathe.moscow/register</loc>
+		<lastmod>2021-11-17T21:50:42+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://breathe.moscow/faq</loc>
+		<lastmod>2021-11-17T21:50:55+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://breathe.moscow/fb</loc>
+		<lastmod>2021-01-17T20:13:13+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://breathe.moscow/about</loc>
+		<lastmod>2021-11-17T21:50:49+00:00</lastmod>
+	</url>
+</urlset>
